@@ -1,0 +1,45 @@
+{
+  "name": "typescript-jasmine-istanbul-boilerplate",
+  "version": "1.0.0",
+  "description": "An example node project to produce coverage of TypeScript sources using Jasmine.",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Izhaki/Typescript-Jasmine-Istanbul-Boilerplate.git"
+  },
+  "keywords": [
+    "typescript",
+    "jasmine",
+    "istanbul",
+    "sourcemaps",
+    "node",
+    "npm scripts",
+    "tsc"
+  ],
+  "author": "Izhaki",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^2.5.54",
+    "istanbul": "^1.1.0-alpha.1",
+    "jasmine": "^2.8.0",
+    "jasmine-core": "2.4.1",
+    "jasmine-spec-reporter": "2.5.0",
+    "karma": "*",
+    "karma-jasmine": "*",
+    "ts-node": "^3.0.4",
+    "typescript": "^2.0.3",
+    "@types/node": "^7.0.18",
+    "mocha": "^3.3.0",
+    "tslint": "^5.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Izhaki/Typescript-Jasmine-Istanbul-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/Izhaki/Typescript-Jasmine-Istanbul-Boilerplate#readme",
+  "dependencies": {
+    "@types/mocha": "^2.2.43",
+    "chai": "^4.1.2"
+  }
+}
